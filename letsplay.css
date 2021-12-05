@@ -1,0 +1,35 @@
+body{
+    background: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#container{
+    width:420px;
+    margin:0 auto;
+    margin-top:5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=submit] {
+    background-color: #42A500;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 100%;
+    transition: ease-in-out;
+    transition: 1s;
+}
+input[type=submit]:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    color: #42A500;
+    border: 2px solid #42A500;
+}
