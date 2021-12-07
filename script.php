@@ -1,12 +1,12 @@
 <?php   
     if($_POST['executer'] == 'ON')
     {
-        system("touch coucou.txt");
+        system("/home/pi/minecraft/server");
         header('Location: run.php');
     }
     else
     {
-        system("rm coucou.txt");
+        system("/home/pi/minecraft/stop");
         header('Location: shutdown.php');
     }
 ?>

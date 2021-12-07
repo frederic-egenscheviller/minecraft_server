@@ -3,8 +3,8 @@ session_start();
 if(isset($_POST['username']) && isset($_POST['password']))
 {
     // connexion à la base de données
-    $db_username = 'debian-sys-maint';
-    $db_password = '6NyTQ9Ym5dglGMtg';
+    $db_username = 'minecraft';
+    $db_password = 'y2j6W7qUF';
     $db_name     = 'minecraft_login';
     $db_host     = 'localhost';
     $db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
